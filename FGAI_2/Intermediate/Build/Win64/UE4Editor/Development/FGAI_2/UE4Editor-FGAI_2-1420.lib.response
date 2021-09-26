@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FGAI_2-1420.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGGridActor.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGGridBlockComponent.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGPlayer.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGPlayerController.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGAI_2.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGAI_2GameModeBase.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGAI_2.init.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGAI_2GameModeBase.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGGridActor.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGGridBlockComponent.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGGridDummyComponent.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGPlayer.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\FGPlayerController.gen.cpp.obj"
+"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\Default.rc2.res"
+/OUT:"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2\UE4Editor-FGAI_2-1420.lib"
+/INCLUDE:IMPLEMENT_MODULE_FGAI_2

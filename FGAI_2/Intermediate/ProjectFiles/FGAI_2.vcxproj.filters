@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FGAI_2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B7BFD41D-6658-4D3A-A2C5-C9C2F78AD548}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FGAI_2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FGAI_2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CEBFAE3A-2703-4FA3-ACD2-87411342C8EB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FGAI_2">
+      <UniqueIdentifier>{F0CA573E-97A7-4C5C-AD5E-38658D31282A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FGAI_2\FGAI_2.Build.cs">
+      <Filter>Source\FGAI_2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FGAI_2\FGAI_2.cpp">
+      <Filter>Source\FGAI_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2\FGAI_2.h">
+      <Filter>Source\FGAI_2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FGAI_2\FGAI_2GameModeBase.cpp">
+      <Filter>Source\FGAI_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2\FGAI_2GameModeBase.h">
+      <Filter>Source\FGAI_2</Filter>
+    </ClInclude>
+    <Filter Include="Source\FGAI_2\Grid">
+      <UniqueIdentifier>{0EDF058F-255C-47D8-ADA9-8483C1C6AB94}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FGAI_2\Grid\FGGridActor.cpp">
+      <Filter>Source\FGAI_2\Grid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2\Grid\FGGridActor.h">
+      <Filter>Source\FGAI_2\Grid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FGAI_2\Grid\FGGridBlockComponent.cpp">
+      <Filter>Source\FGAI_2\Grid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2\Grid\FGGridBlockComponent.h">
+      <Filter>Source\FGAI_2\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FGAI_2\Grid\FGGridDummyComponent.h">
+      <Filter>Source\FGAI_2\Grid</Filter>
+    </ClInclude>
+    <Filter Include="Source\FGAI_2\Player">
+      <UniqueIdentifier>{ECFCC7AD-2C8A-4C1C-B964-75FDE557BAD8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FGAI_2\Player\FGPlayer.cpp">
+      <Filter>Source\FGAI_2\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2\Player\FGPlayer.h">
+      <Filter>Source\FGAI_2\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FGAI_2\Player\FGPlayerController.cpp">
+      <Filter>Source\FGAI_2\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2\Player\FGPlayerController.h">
+      <Filter>Source\FGAI_2\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\FGAI_2Editor">
+      <UniqueIdentifier>{7AB6CDB7-FFCF-48C6-8653-0F5CBBAB09C8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FGAI_2Editor\FGAI_2EdEngine.cpp">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2Editor\FGAI_2EdEngine.h">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FGAI_2Editor\FGAI_2Editor.Build.cs">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FGAI_2Editor\FGAI_2Editor.cpp">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2Editor\FGAI_2Editor.h">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FGAI_2Editor\FGAI_2EditorModule.cpp">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2Editor\FGAI_2EditorModule.h">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FGAI_2Editor\FGGridBlockVisualizer.cpp">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FGAI_2Editor\FGGridBlockVisualizer.h">
+      <Filter>Source\FGAI_2Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

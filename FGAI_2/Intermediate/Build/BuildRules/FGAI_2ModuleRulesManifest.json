@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"A:\\Unreal Projects\\FGAI_2\\Source\\FGAI_2\\FGAI_2.Build.cs",
+		"A:\\Unreal Projects\\FGAI_2\\Source\\FGAI_2Editor\\FGAI_2Editor.Build.cs",
+		"A:\\Unreal Projects\\FGAI_2\\Source\\FGAI_2.Target.cs",
+		"A:\\Unreal Projects\\FGAI_2\\Source\\FGAI_2Editor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
