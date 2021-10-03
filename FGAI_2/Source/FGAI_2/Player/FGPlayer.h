@@ -35,7 +35,9 @@ public:
 	*/
 	UFUNCTION(BlueprintImplementableEvent, Category = "Player", meta = (DisplayName = "OnConfirm"))
 	void BP_OnConfirm();
-
+	
+	UFUNCTION(BlueprintImplementableEvent, Category = "Player", meta = (DisplayName = "AddBlock"))
+    void BP_AddBlock();
 	UFUNCTION(BlueprintPure, Category = "Player")
 	bool GetMouseLocationOnGrid(FVector& OutWorldMouseLocation) const;
 
@@ -46,6 +48,7 @@ private:
 	void Handle_Right(float Value);
 	void Handle_Up(float Value);
 	void Handle_ConfirmedPressed();
+	void Handle_AddBlockPressed();
 
 	FVector InputVector;
 };

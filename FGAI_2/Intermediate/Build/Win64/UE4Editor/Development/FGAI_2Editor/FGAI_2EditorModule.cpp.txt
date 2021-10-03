@@ -1,5 +1,5 @@
-A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2Editor\Definitions.FGAI_2Editor.h
-A:\Unreal Projects\FGAI_2\Source\FGAI_2Editor\FGAI_2EditorModule.h
+A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2Editor\Definitions.FGAI_2Editor.h
+A:\GitHab\FGAI2\FGAI_2\Source\FGAI_2Editor\FGAI_2EditorModule.h
 A:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Engine.h
 A:\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 A:\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Core.h

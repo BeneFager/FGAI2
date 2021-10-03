@@ -259,11 +259,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/I "A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine"
-/Yc"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine
+/Yc"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

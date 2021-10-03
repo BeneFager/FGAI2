@@ -29,6 +29,11 @@ void EmptyLinkFunctionForGeneratedCodeFGPlayer() {}
 		*(bool*)Z_Param__Result=P_THIS->GetMouseLocationOnGrid(Z_Param_Out_OutWorldMouseLocation);
 		P_NATIVE_END;
 	}
+	static FName NAME_AFGPlayer_BP_AddBlock = FName(TEXT("BP_AddBlock"));
+	void AFGPlayer::BP_AddBlock()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AFGPlayer_BP_AddBlock),NULL);
+	}
 	static FName NAME_AFGPlayer_BP_OnConfirm = FName(TEXT("BP_OnConfirm"));
 	void AFGPlayer::BP_OnConfirm()
 	{
@@ -41,6 +46,30 @@ void EmptyLinkFunctionForGeneratedCodeFGPlayer() {}
 			{ "GetMouseLocationOnGrid", &AFGPlayer::execGetMouseLocationOnGrid },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFGPlayer_BP_AddBlock_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFGPlayer_BP_AddBlock_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Player" },
+		{ "DisplayName", "AddBlock" },
+		{ "ModuleRelativePath", "Player/FGPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFGPlayer_BP_AddBlock_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFGPlayer, nullptr, "BP_AddBlock", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFGPlayer_BP_AddBlock_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFGPlayer_BP_AddBlock_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFGPlayer_BP_AddBlock()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFGPlayer_BP_AddBlock_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AFGPlayer_BP_OnConfirm_Statics
 	{
@@ -146,6 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeFGPlayer() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FGAI_2,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFGPlayer_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFGPlayer_BP_AddBlock, "BP_AddBlock" }, // 871080010
 		{ &Z_Construct_UFunction_AFGPlayer_BP_OnConfirm, "BP_OnConfirm" }, // 3924621115
 		{ &Z_Construct_UFunction_AFGPlayer_GetMouseLocationOnGrid, "GetMouseLocationOnGrid" }, // 3516578874
 	};
@@ -218,7 +248,7 @@ void EmptyLinkFunctionForGeneratedCodeFGPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFGPlayer, 2986318707);
+	IMPLEMENT_CLASS(AFGPlayer, 1347198169);
 	template<> FGAI_2_API UClass* StaticClass<AFGPlayer>()
 	{
 		return AFGPlayer::StaticClass();

@@ -193,6 +193,14 @@ static struct FScriptStruct_FGAI_2_StaticRegisterNativesFFGTileinfo
 		*(int32*)Z_Param__Result=P_THIS->GetTileIndexFromXY(Z_Param_TileX,Z_Param_TileY,Z_Param_Out_OutTileIndex);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AFGGridActor::execSetTileWalkable)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_Index);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetTileWalkable(Z_Param_Index);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFGGridActor::execGetTileNeighbours)
 	{
 		P_GET_STRUCT(FVector,Z_Param_WorldLocation);
@@ -286,6 +294,7 @@ static struct FScriptStruct_FGAI_2_StaticRegisterNativesFFGTileinfo
 			{ "Pathfinding", &AFGGridActor::execPathfinding },
 			{ "RetracePath", &AFGGridActor::execRetracePath },
 			{ "SelectTile", &AFGGridActor::execSelectTile },
+			{ "SetTileWalkable", &AFGGridActor::execSetTileWalkable },
 			{ "TransformWorldLocationToTileLocation", &AFGGridActor::execTransformWorldLocationToTileLocation },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -967,6 +976,38 @@ static struct FScriptStruct_FGAI_2_StaticRegisterNativesFFGTileinfo
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics
+	{
+		struct FGGridActor_eventSetTileWalkable_Parms
+		{
+			int32 Index;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Index;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGGridActor_eventSetTileWalkable_Parms, Index), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::NewProp_Index,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Grid/FGGridActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFGGridActor, nullptr, "SetTileWalkable", nullptr, nullptr, sizeof(FGGridActor_eventSetTileWalkable_Parms), Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFGGridActor_SetTileWalkable()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFGGridActor_SetTileWalkable_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFGGridActor_TransformWorldLocationToTileLocation_Statics
 	{
 		struct FGGridActor_eventTransformWorldLocationToTileLocation_Parms
@@ -1112,6 +1153,7 @@ static struct FScriptStruct_FGAI_2_StaticRegisterNativesFFGTileinfo
 		{ &Z_Construct_UFunction_AFGGridActor_Pathfinding, "Pathfinding" }, // 817516394
 		{ &Z_Construct_UFunction_AFGGridActor_RetracePath, "RetracePath" }, // 2978223732
 		{ &Z_Construct_UFunction_AFGGridActor_SelectTile, "SelectTile" }, // 615971360
+		{ &Z_Construct_UFunction_AFGGridActor_SetTileWalkable, "SetTileWalkable" }, // 3095884668
 		{ &Z_Construct_UFunction_AFGGridActor_TransformWorldLocationToTileLocation, "TransformWorldLocationToTileLocation" }, // 3121063452
 	};
 #if WITH_METADATA
@@ -1255,7 +1297,7 @@ static struct FScriptStruct_FGAI_2_StaticRegisterNativesFFGTileinfo
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFGGridActor, 1083370788);
+	IMPLEMENT_CLASS(AFGGridActor, 54926207);
 	template<> FGAI_2_API UClass* StaticClass<AFGGridActor>()
 	{
 		return AFGGridActor::StaticClass();

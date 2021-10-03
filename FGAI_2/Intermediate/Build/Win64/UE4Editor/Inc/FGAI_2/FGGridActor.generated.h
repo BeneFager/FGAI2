@@ -36,6 +36,7 @@ template<> FGAI_2_API UScriptStruct* StaticStruct<struct FFGTileinfo>();
 	DECLARE_FUNCTION(execGetNumTiles); \
 	DECLARE_FUNCTION(execGetTileSizeHalf); \
 	DECLARE_FUNCTION(execGetTileIndexFromXY); \
+	DECLARE_FUNCTION(execSetTileWalkable); \
 	DECLARE_FUNCTION(execGetTileNeighbours); \
 	DECLARE_FUNCTION(execRetracePath); \
 	DECLARE_FUNCTION(execPathfinding); \
@@ -59,6 +60,7 @@ template<> FGAI_2_API UScriptStruct* StaticStruct<struct FFGTileinfo>();
 	DECLARE_FUNCTION(execGetNumTiles); \
 	DECLARE_FUNCTION(execGetTileSizeHalf); \
 	DECLARE_FUNCTION(execGetTileIndexFromXY); \
+	DECLARE_FUNCTION(execSetTileWalkable); \
 	DECLARE_FUNCTION(execGetTileNeighbours); \
 	DECLARE_FUNCTION(execRetracePath); \
 	DECLARE_FUNCTION(execPathfinding); \

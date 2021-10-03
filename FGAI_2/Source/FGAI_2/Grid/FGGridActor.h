@@ -83,7 +83,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	TArray<int32> GetTileNeighbours(const FVector WorldLocation);
-
+	UFUNCTION(BlueprintCallable)
+	void SetTileWalkable(int Index);
 	/*
 	* Returns a list of indices correlating to the location of a tile within the TileList
 	*/

@@ -31,8 +31,8 @@
 /wd4244
 /wd4838
 /I .
-/I "A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Inc\FGAI_2Editor"
-/I "A:\Unreal Projects\FGAI_2\Source"
+/I A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\UE4Editor\Inc\FGAI_2Editor
+/I A:\GitHab\FGAI2\FGAI_2\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -232,7 +232,7 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Inc\FGAI_2"
+/I A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\UE4Editor\Inc\FGAI_2
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -262,12 +262,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Yu"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Fp"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
-"A:\Unreal Projects\FGAI_2\Source\FGAI_2Editor\FGGridBlockVisualizer.cpp"
-/FI"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2Editor\Definitions.FGAI_2Editor.h"
-/Fo"A:\Unreal Projects\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2Editor\FGGridBlockVisualizer.cpp.obj"
+/FI"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Yu"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\FGAI_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+"A:\GitHab\FGAI2\FGAI_2\Source\FGAI_2Editor\FGGridBlockVisualizer.cpp"
+/FI"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2Editor\Definitions.FGAI_2Editor.h"
+/Fo"A:\GitHab\FGAI2\FGAI_2\Intermediate\Build\Win64\UE4Editor\Development\FGAI_2Editor\FGGridBlockVisualizer.cpp.obj"
 /TP
 /GR-
 /W4

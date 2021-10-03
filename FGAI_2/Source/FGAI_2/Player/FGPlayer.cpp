@@ -44,6 +44,7 @@ void AFGPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis(TEXT("Up"), this, &AFGPlayer::Handle_Up);
 
 	PlayerInputComponent->BindAction(TEXT("Confirm"), IE_Pressed, this, &AFGPlayer::Handle_ConfirmedPressed);
+	PlayerInputComponent->BindAction(TEXT("AddBlock"), IE_Pressed, this, &AFGPlayer::Handle_AddBlockPressed);
 }
 
 bool AFGPlayer::GetMouseLocationOnGrid(FVector& OutWorldMouseLocation) const
@@ -110,4 +111,9 @@ void AFGPlayer::Handle_Up(float Value)
 void AFGPlayer::Handle_ConfirmedPressed()
 {
 	BP_OnConfirm();
+}
+
+void AFGPlayer::Handle_AddBlockPressed()
+{
+	BP_AddBlock();
 }

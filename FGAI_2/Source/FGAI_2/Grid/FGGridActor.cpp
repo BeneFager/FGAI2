@@ -440,3 +440,7 @@ void AFGGridActor::SelectTile(FVector WorldPos)
 	}
 }
 
+void AFGGridActor::SetTileWalkable(int Index)
+{
+	TileList[Index].bWalkable = !TileList[Index].bWalkable;
+}
